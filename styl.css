@@ -1,4 +1,4 @@
-@import url(color-system/dark.css);
+@import url(dark.css);
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--md-sys-color-background);
