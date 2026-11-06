@@ -1,0 +1,169 @@
+.dark {
+  /* --------------------------------------------------
+     1. رنگ‌های اصلی - Material Design 3
+  -------------------------------------------------- */
+  --md-sys-color-primary: #D6AD60;
+  --md-sys-color-on-primary: #211707;
+  --md-sys-color-primary-container: #4A3515;
+  --md-sys-color-on-primary-container: #F7DEA9;
+  --md-sys-color-inverse-primary: #79591F;
+  --md-sys-color-surface-tint: #D6AD60;
+
+  --md-sys-color-secondary: #C5A878;
+  --md-sys-color-on-secondary: #261B0B;
+  --md-sys-color-secondary-container: #44351F;
+  --md-sys-color-on-secondary-container: #EBD7B2;
+
+  --md-sys-color-tertiary: #B88B62;
+  --md-sys-color-on-tertiary: #27180D;
+  --md-sys-color-tertiary-container: #4B3020;
+  --md-sys-color-on-tertiary-container: #F2D2B5;
+
+  /* --------------------------------------------------
+     2. رنگ‌های سطح و پس‌زمینه
+  -------------------------------------------------- */
+  --md-sys-color-background: #0D0D0D;
+  --md-sys-color-on-background: #F4F0E8;
+  --md-sys-color-surface: #11100E;
+  --md-sys-color-on-surface: #F4F0E8;
+  --md-sys-color-surface-variant: #403A30;
+  --md-sys-color-on-surface-variant: #D0C4B0;
+
+  --md-sys-color-surface-dim: #0D0D0D;
+  --md-sys-color-surface-bright: #39342C;
+  --md-sys-color-surface-container-lowest: #080808;
+  --md-sys-color-surface-container-low: #171512;
+  --md-sys-color-surface-container: #201D18;
+  --md-sys-color-surface-container-high: #2A261F;
+  --md-sys-color-surface-container-highest: #353027;
+
+  /* --------------------------------------------------
+     3. رنگ‌های ثابت و تونال
+  -------------------------------------------------- */
+  --md-sys-color-primary-fixed: #F7DEA9;
+  --md-sys-color-on-primary-fixed: #261A06;
+  --md-sys-color-primary-fixed-dim: #D6AD60;
+  --md-sys-color-on-primary-fixed-variant: #4A3515;
+
+  --md-sys-color-secondary-fixed: #EBD7B2;
+  --md-sys-color-on-secondary-fixed: #21180A;
+  --md-sys-color-secondary-fixed-dim: #C5A878;
+  --md-sys-color-on-secondary-fixed-variant: #44351F;
+
+  --md-sys-color-tertiary-fixed: #F2D2B5;
+  --md-sys-color-on-tertiary-fixed: #28180D;
+  --md-sys-color-tertiary-fixed-dim: #B88B62;
+  --md-sys-color-on-tertiary-fixed-variant: #4B3020;
+
+  /* --------------------------------------------------
+     4. خطا، موفقیت، هشدار و اطلاع‌رسانی
+  -------------------------------------------------- */
+  --md-sys-color-error: #F2B8B5;
+  --md-sys-color-on-error: #601410;
+  --md-sys-color-error-container: #8C2823;
+  --md-sys-color-on-error-container: #FFDAD7;
+
+  --pg-color-success: #8FC6A0;
+  --pg-color-on-success: #102719;
+  --pg-color-success-container: #244A32;
+  --pg-color-on-success-container: #C8F0D1;
+
+  --pg-color-warning: #E9BD70;
+  --pg-color-on-warning: #2A1B05;
+  --pg-color-warning-container: #594019;
+  --pg-color-on-warning-container: #FFE3B0;
+
+  --pg-color-info: #A9C5D8;
+  --pg-color-on-info: #10212D;
+  --pg-color-info-container: #263F50;
+  --pg-color-on-info-container: #D5EAF7;
+
+  /* --------------------------------------------------
+     5. خطوط، حاشیه‌ها و لایه‌های تیره
+  -------------------------------------------------- */
+  --md-sys-color-outline: #9A896B;
+  --md-sys-color-outline-variant: #514735;
+  --md-sys-color-shadow: #000000;
+  --md-sys-color-scrim: #000000;
+  --md-sys-color-inverse-surface: #F4F0E8;
+  --md-sys-color-inverse-on-surface: #302B23;
+
+  --pg-color-border-subtle: #302A20;
+  --pg-color-border-default: #514735;
+  --pg-color-border-strong: #9A896B;
+  --pg-color-divider: #332D23;
+  --pg-color-overlay: rgb(0 0 0 / 58%);
+  --pg-color-glass: rgb(30 27 22 / 78%);
+
+  /* --------------------------------------------------
+     6. طیف طلایی - برای تأکیدها و جزئیات برند
+  -------------------------------------------------- */
+  --pg-gold-50: #FFF8E9;
+  --pg-gold-100: #F7DEA9;
+  --pg-gold-200: #EED08B;
+  --pg-gold-300: #E4C078;
+  --pg-gold-400: #DDB76C;
+  --pg-gold-500: #D6AD60;
+  --pg-gold-600: #B98D43;
+  --pg-gold-700: #8E682D;
+  --pg-gold-800: #60451E;
+  --pg-gold-900: #392912;
+
+  /* --------------------------------------------------
+     7. طیف مشکی و ذغالی
+  -------------------------------------------------- */
+  --pg-black: #050505;
+  --pg-charcoal-950: #0D0D0D;
+  --pg-charcoal-900: #11100E;
+  --pg-charcoal-800: #171512;
+  --pg-charcoal-700: #201D18;
+  --pg-charcoal-600: #2A261F;
+  --pg-charcoal-500: #353027;
+  --pg-charcoal-400: #514A3E;
+
+  /* --------------------------------------------------
+     8. رنگ متن
+  -------------------------------------------------- */
+  --pg-text-primary: #F4F0E8;
+  --pg-text-secondary: #CFC6B7;
+  --pg-text-muted: #9C9385;
+  --pg-text-disabled: #6D675D;
+  --pg-text-gold: #D6AD60;
+  --pg-text-inverse: #17130C;
+
+  /* --------------------------------------------------
+     9. گرادیانت‌های اختصاصی برند
+     قابل استفاده در background یا background-image
+  -------------------------------------------------- */
+  --pg-gradient-brand: linear-gradient(135deg, #8E682D 0%, #D6AD60 48%, #F7DEA9 100%);
+  --pg-gradient-gold: linear-gradient(120deg, #A87932 0%, #D6AD60 52%, #F0D49B 100%);
+  --pg-gradient-gold-soft: linear-gradient(135deg, #4A3515 0%, #8E682D 52%, #C5A878 100%);
+  --pg-gradient-dark: linear-gradient(135deg, #080808 0%, #171512 55%, #2A261F 100%);
+  --pg-gradient-header: linear-gradient(100deg, #11100E 0%, #201D18 55%, #302719 100%);
+  --pg-gradient-card: linear-gradient(145deg, #211E19 0%, #171512 58%, #11100E 100%);
+  --pg-gradient-button: linear-gradient(135deg, #E4C078 0%, #D6AD60 52%, #B98D43 100%);
+  --pg-gradient-button-hover: linear-gradient(135deg, #F7DEA9 0%, #E4C078 52%, #D6AD60 100%);
+  --pg-gradient-border: linear-gradient(120deg, #8E682D 0%, #F0D49B 50%, #8E682D 100%);
+  --pg-gradient-glow: radial-gradient(circle at top right, rgb(214 173 96 / 22%) 0%, rgb(214 173 96 / 0%) 58%);
+  --pg-gradient-hero:
+    radial-gradient(circle at 85% 15%, rgb(214 173 96 / 16%) 0%, transparent 34%),
+    linear-gradient(135deg, #0D0D0D 0%, #171512 58%, #2A2115 100%);
+
+  /* --------------------------------------------------
+     10. سایه‌های رنگی و درخشش طلایی
+  -------------------------------------------------- */
+  --pg-shadow-soft: 0 8px 24px rgb(0 0 0 / 22%);
+  --pg-shadow-medium: 0 14px 36px rgb(0 0 0 / 34%);
+  --pg-shadow-strong: 0 20px 55px rgb(0 0 0 / 48%);
+  --pg-shadow-gold: 0 8px 26px rgb(214 173 96 / 18%);
+  --pg-glow-gold: 0 0 18px rgb(214 173 96 / 24%);
+  --pg-glow-gold-strong: 0 0 30px rgb(214 173 96 / 38%);
+
+  /* --------------------------------------------------
+     11. حالت‌های تعاملی
+  -------------------------------------------------- */
+  --pg-hover-overlay: rgb(214 173 96 / 9%);
+  --pg-pressed-overlay: rgb(214 173 96 / 16%);
+  --pg-focus-ring: #E4C078;
+  --pg-selection: rgb(214 173 96 / 28%);
+}
